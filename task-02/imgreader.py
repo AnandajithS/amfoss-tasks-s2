@@ -1,7 +1,7 @@
 import pytesseract
 from PIL import Image
 import os
-dirpath='/home/anandajith-s/amfoss-tasks-s2/task-02'
+dirpath='/home/anandajith-s/amfoss-tasks-s2/task-02/captcha'
 for i in os.listdir(dirpath):
     if i.endswith(".png"):
         imgpath=os.path.join(dirpath,i)
