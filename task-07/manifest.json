@@ -1,0 +1,12 @@
+{
+    "name": "My weather app",
+    "description": "A basic chrome extension to display the weather",
+    "version": "1",
+    "manifest_version": 3,
+    "permissions": ["geolocation"],
+    "action": {
+        "default_popup": "weatherextension.html",
+        "default_icon": "app_icon.jpeg"
+    }
+
+}
