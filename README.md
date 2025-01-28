@@ -23,9 +23,9 @@ When I first saw the tasks, I thought that it was going to be very difficult. Bu
 |[Task-01](https://github.com/AnandajithS/amfoss-tasks-s2/tree/main/task-01)|The Command Line Cup|Completed|
 |[Task-02](https://github.com/AnandajithS/amfoss-tasks-s2/tree/main/task-02)|Pixelated Problem Solver|Completed|
 |[Task-03](https://github.com/AnandajithS/amfoss-tasks-s2/tree/main/task-03)|Beat the Buttons|Completed|
-|[Task-04]()|Code the puzzles|Attempted|
+|[Task-04](https://github.com/AnandajithS/amfoss-tasks-s2/tree/main/task-04)|Code the puzzles|Attempted|
 |[Task-05](https://github.com/AnandajithS/amfoss-tasks-s2/tree/main/task-05)|Pokemon Rescue|Completed|
 |Task-06|Flutter Jumpstart|Not Attempted|
 |[Task-07](https://github.com/AnandajithS/amfoss-tasks-s2/tree/main/task-07)|Weather Guardian|Completed|
 |Task-08|Compute Shader|Not Attempted|
-|[Task-09]()|Operation Kernel|Attempted|
+|[Task-09](https://github.com/AnandajithS/amfoss-tasks-s2/tree/main/task-09)|Operation Kernel|Attempted|
