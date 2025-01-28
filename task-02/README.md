@@ -1,0 +1,3 @@
+This task was rather simple. I created a virtual environment and imported as Python library called `pytesseract`, which is an OCR(Optical Character Recognition) tool for python and helps us to read the text embedded in images. I have also imported the `PIL` module for loading images and `os` module to deal with the image paths. 
+
+In my program, we first give the path of the folder where the captcha is stored to the `dirpath` variable. Then it will read the images using `open` method of `PIL`. Using the `image_to_string` method of `pytesseract`, the expression inside the image is read and stored, which is then evaluated using the `eval` method.

@@ -6,6 +6,7 @@ details.style.display="none";
 
 function fetchweather(url){
     var location=document.getElementById("location");
+    var pic=document.getElementById("pic");
     var temperature=document.getElementById("temperature");
     var description=document.getElementById("description");
     var maxtemp=document.getElementById("maxtemp");
@@ -16,16 +17,19 @@ function fetchweather(url){
         .then(data=>{
             var name=data.name;
             var country=data.sys.country;
+            var img=data.weather[0].icon;
             var t=data.main.temp;
             var max_temp=data.main.temp_max;
             var min_temp=data.main.temp_min;
             var hum=data.main.humidity;
             var des=data.weather[0]["main"];
+            var iconurl=`https://openweathermap.org/img/wn/${img}@2x.png`;
+            pic.src=iconurl;
             details.style.display="block";
             temperature.textContent=t+" \u00B0C";
             location.textContent=`${name}, ${country}`;
-            maxtemp.textContent=`Maximum Temperature: ${max_temp}`;
-            mintemp.textContent=`Minimum Temperature: ${min_temp}`;
+            maxtemp.textContent=`Maximum Temperature: ${max_temp} \u00B0C`;
+            mintemp.textContent=`Minimum Temperature: ${min_temp} \u00B0C`;
             humidity.textContent=`Humidity: ${hum}%`;
             description.textContent=des;
         })
